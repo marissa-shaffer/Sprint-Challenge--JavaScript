@@ -44,14 +44,19 @@ console.log(dinosaurObjOne.weight);
 console.log(dinosaurObjThree.diet);
 
 // How long was a stegosaurus?
-console.log(dinosaurobjTwo.length);
+console.log(dinosaurObjTwo.length);
 
 // What time period did tyrannosaurus live in?
 console.log(dinosaurObjOne.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+const dinosaurObjOne = {
+roar: function (){
+  return "RAWERSRARARWERSARARARRRR!";
+  } 
+}
+console.log(dinosaurObjOne.roar);
 
 
 // ==== Arrays ====
