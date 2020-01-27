@@ -79,7 +79,8 @@ const graduates = [
 /* Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
-const universities = [];
+const universities = ["Missouri Southern State College", "The School of the Art Institute of Chicago", "Marian College", "International Medical & Technological University", "Sultan Salahuddin Abdul Aziz Shah Polytechnic", "Fachhochschule Rosenheim, Hochschule für Technik und Wirtschaft", "Salem University", "Coastal Carolina University", "Universidad Católica de Ávila", "Universitat Rovira I Virgili Tarragona"];
+universities.sort();
 console.log(universities);
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
