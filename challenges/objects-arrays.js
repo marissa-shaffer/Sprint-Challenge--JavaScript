@@ -99,7 +99,7 @@ const contactInfo = graduates.map(obj => {
 const unisWithUni = (graduates, query) => {
   return graduates.filter(obj => obj.toLowerCase().indexof(query.toLowerCase())!== -1) 
 }
-console.log(unisWithUni, 'Uni');
+console.log(unisWithUni, 'uni');
 
 
 // ==== ADVANCED Array Methods ====
