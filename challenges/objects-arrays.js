@@ -96,8 +96,10 @@ const contactInfo = graduates.map(obj => {
   console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
-const unisWithUni = [];
-console.log(unisWithUni);
+const unisWithUni = (graduates, query) => {
+  return graduates.filter(obj => obj.toLowerCase().indexof(query.toLowerCase())!== -1) 
+}
+console.log(unisWithUni, 'Uni');
 
 
 // ==== ADVANCED Array Methods ====
