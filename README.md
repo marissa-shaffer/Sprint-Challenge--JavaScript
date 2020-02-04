@@ -34,11 +34,21 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
+<<<<<<< HEAD
 A function is a piece of code that is called by name. A method is a piece of code that is called by a name that is associated with an object.
 
 3. What is closure?
 
 A closure is a function that has access to its outer function scope even after the outer function has returned. This means a closure can remember and access variables and arguments of its outer function even after the function has finished.
+=======
+A function is a piece of code that is called by name.
+A method is a piece of code that is called by a name that is associated with an object.
+
+3. What is closure?
+
+A closure is a function that has access to its outer function scope even after the outer function has returned. 
+This means a closure can remember and access variables and arguments of its outer function even after the function has finished.
+>>>>>>> 85b3323f2b55eb7d8ab9eb39c24bfa89b1e44ee9
 
 4. Describe the four rules of the 'this' keyword.
 
@@ -49,7 +59,11 @@ A closure is a function that has access to its outer function scope even after t
 
 5. Why do we need super() in an extended class?
 
+<<<<<<< HEAD
 The super keyword is used as a “function” which calls the parent class with the parameters passed to the subclass.
+=======
+The super keyword is used as a “function” which calls the parent class with the parameters passed to the subclass. 
+>>>>>>> 85b3323f2b55eb7d8ab9eb39c24bfa89b1e44ee9
 
 ## Project Set up
 
